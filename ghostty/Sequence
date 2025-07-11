@@ -1,3 +1,20 @@
+# vim:ft=ghostty
+
+# NAME: Sequence
+# AUTHOR: jdsherrington
+# LICENSE: MIT
+# DESCRIPTION: A cosy, low-contrast color scheme for terminals and editors.
+# UPSTREAM: https://raw.githubusercontent.com/jdsherrington/sequence/main/ghostty/Sequence
+
+background = #15181E
+foreground = #9BA6BF
+
+selection-background = #5E6678
+selection-foreground = #9BA6BF
+
+cursor-color = #9BA6BF
+cursor-text = #15181E
+
 palette = 0=#15181E
 palette = 1=#7D6466
 palette = 2=#6D786D
@@ -14,9 +31,3 @@ palette = 12=#7793BB
 palette = 13=#958BB6
 palette = 14=#7CA2A2
 palette = 15=#9BA6BF
-background = #15181E
-foreground = #9BA6BF
-cursor-color = #9BA6BF
-cursor-text = #15181E
-selection-background = #5E6678
-selection-foreground = #9BA6BF

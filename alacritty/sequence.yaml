@@ -1,0 +1,36 @@
+# NAME: Sequence
+# AUTHOR: jdsherrington
+# LICENSE: MIT
+# DESCRIPTION: A cosy, low-contrast color scheme for terminals and editors.
+# UPSTREAM: https://raw.githubusercontent.com/jdsherrington/sequence/main/alacritty/sequence.yaml
+
+# DEFAULT
+primary:
+  background: "0x15181E"
+  foreground: "0x9BA6BF"
+
+cursor:
+  text: "0x15181E"
+  cursor: "0x9BA6BF"
+
+# BASE
+normal:
+  black: "0x15181E"
+  red: "0x7D6466"
+  green: "0x6D786D"
+  yellow: "0x7F766C"
+  blue: "0x5D7392"
+  magenta: "0x746B8E"
+  cyan: "0x5A7777"
+  white: "0x5E6678"
+
+# BRIGHT
+bright:
+  black: "0x2A2F3C"
+  red: "0xA5888B"
+  green: "0x859385"
+  yellow: "0xA19A91"
+  blue: "0x7793BB"
+  magenta: "0x958BB6"
+  cyan: "0x7CA2A2"
+  white: "0x9BA6BF"
