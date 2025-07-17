@@ -10,7 +10,6 @@ In your lazy.nvim configuration (usually init.lua, or wherever you load your plu
 return {
   "jdsherrington/sequence.nvim",
   name = "sequence",
-  subdir = "nvim",
   lazy = false,
   priority = 1000,
   config = true, -- Uses default options
@@ -23,7 +22,6 @@ For an advanced configuration with maximum customisation:
 return {
   "jdsherrington/sequence",
   name = "sequence",
-  subdir = "nvim",
   lazy = false,               -- Load immediately at startup (important for colorschemes)
   priority = 1000,            -- High priority so it loads before other plugins
 
@@ -67,7 +65,6 @@ In your packer configuration (e.g. ~/.config/nvim/lua/plugins.lua):
 ```lua
 use {
   "jdsherrington/sequence",
-  rtp = "nvim",
   config = function()
     require("sequence").setup()  -- Use default options
   end,
@@ -79,7 +76,6 @@ For an advanced configuration with maximum customisation:
 ```lua
 use {
     'jdsherrington/sequence',
-    rtp = 'nvim',
     config = function()
       require('sequence').setup({
         -- === THEME OPTIONS ===
