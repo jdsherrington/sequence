@@ -7,6 +7,7 @@ local cache = {}
 function M.setup(user_config)
 	config.setup(user_config)
 	cache = {} -- Clear cache on config change
+	M.load()
 end
 
 function M.load()
@@ -33,7 +34,5 @@ function M.load()
 
 	cache.loaded = true
 end
-
-M.load()
 
 return M
