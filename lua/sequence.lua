@@ -3,4 +3,4 @@
 
 local base = debug.getinfo(1, "S").source:sub(2):match("(.*/)") .. "../../nvim/lua/"
 package.path = base .. "?.lua;" .. base .. "?/init.lua;" .. package.path
-return require("sequence")
+return require("sequence.init")
