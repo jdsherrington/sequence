@@ -16,7 +16,7 @@ Sequence is a cosy, low-contrast color scheme for terminals and editors. Designe
 
 ### Editors
 
-- Neovim - in progress
+- [Neovim](https://github.com/jdsherrington/sequence/tree/main/nvim)
 - Visual Studio Code - in progress
 
 ### Other
