@@ -15,7 +15,7 @@ function M.get_highlights(colors)
 		-- Cursor and lines
 		utils.hl("Cursor", { fg = colors.bg, bg = colors.fg }),
 		utils.hl("CursorLine", { bg = colors.grey }),
-		utils.hl("CursorLineNr", { fg = colors.lightgrey, bold = true }),
+		utils.hl("CursorLineNr", { fg = colors.fg, bold = true }),
 		utils.hl("LineNr", { fg = colors.grey }),
 		utils.hl("SignColumn", { bg = transparent and colors.none or colors.bg }),
 		utils.hl("ColorColumn", { bg = colors.grey }),
@@ -25,9 +25,9 @@ function M.get_highlights(colors)
 		utils.hl("VisualNOS", { bg = colors.visual }),
 
 		-- Search
-		utils.hl("Search", { fg = colors.bg, bg = colors.search }),
-		utils.hl("IncSearch", { fg = colors.bg, bg = colors.match }),
-		utils.hl("CurSearch", { fg = colors.bg, bg = colors.match }),
+		utils.hl("Search", { fg = colors.searchfg, bg = colors.searchbg }),
+		utils.hl("IncSearch", { fg = colors.matchfg, bg = colors.matchbg }),
+		utils.hl("CurSearch", { link = "IncSearch" }),
 
 		-- Folds
 		utils.hl("Folded", { fg = colors.lightgrey, bg = colors.grey }),
@@ -35,7 +35,7 @@ function M.get_highlights(colors)
 
 		-- Popup menu
 		utils.hl("Pmenu", { fg = colors.fg, bg = colors.grey }),
-		utils.hl("PmenuSel", { fg = colors.bg, bg = colors.lightgrey }),
+		utils.hl("PmenuSel", { fg = colors.bg, bg = colors.blue, bold = true }),
 		utils.hl("PmenuSbar", { bg = colors.grey }),
 		utils.hl("PmenuThumb", { bg = colors.lightgrey }),
 
@@ -53,13 +53,16 @@ function M.get_highlights(colors)
 		utils.hl("WarningMsg", { fg = colors.warning }),
 		utils.hl("ModeMsg", { fg = colors.info }),
 		utils.hl("MoreMsg", { fg = colors.info }),
-		utils.hl("Question", { fg = colors.lightblue }),
+		utils.hl("Question", { fg = colors.blue }),
 
 		-- Diff
+		utils.hl("Added", { fg = colors.lightgreen, bg = colors.none }),
+		utils.hl("Changed", { fg = colors.lightblue, bg = colors.none }),
+		utils.hl("Removed", { fg = colors.lightred, bg = colors.none }),
 		utils.hl("DiffAdd", { fg = colors.lightgreen, bg = colors.grey }),
 		utils.hl("DiffChange", { fg = colors.lightyellow, bg = colors.grey }),
 		utils.hl("DiffDelete", { fg = colors.lightred, bg = colors.grey }),
-		utils.hl("DiffText", { fg = colors.lightblue, bg = colors.grey }),
+		utils.hl("DiffText", { fg = colors.blue, bg = colors.grey }),
 
 		-- Spell
 		utils.hl("SpellBad", { fg = colors.error, undercurl = true }),
@@ -72,9 +75,9 @@ function M.get_highlights(colors)
 		utils.hl("NonText", { fg = colors.lightgrey }),
 		utils.hl("Whitespace", { fg = colors.lightgrey }),
 		utils.hl("SpecialKey", { fg = colors.lightgrey }),
-		utils.hl("Directory", { fg = colors.lightblue }),
-		utils.hl("Title", { fg = colors.lightblue, bold = true }),
-		utils.hl("WildMenu", { fg = colors.bg, bg = colors.lightblue })
+		utils.hl("Directory", { fg = colors.blue }),
+		utils.hl("Title", { fg = colors.blue, bold = true }),
+		utils.hl("WildMenu", { fg = colors.bg, bg = colors.blue })
 	)
 end
 

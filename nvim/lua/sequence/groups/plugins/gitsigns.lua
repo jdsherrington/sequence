@@ -9,7 +9,7 @@ function M.get_highlights(colors)
 		utils.hl("GitSignsChange", { fg = colors.lightyellow }),
 		utils.hl("GitSignsDelete", { fg = colors.lightred }),
 		utils.hl("GitSignsTopdelete", { fg = colors.lightred }),
-		utils.hl("GitSignsChangedelete", { fg = colors.lightred }),
+		utils.hl("GitSignsChangedelete", { fg = colors.lightyellow }),
 		utils.hl("GitSignsUntracked", { fg = colors.lightcyan }),
 
 		-- Line highlights
@@ -25,7 +25,7 @@ function M.get_highlights(colors)
 		utils.hl("GitSignsChangeNr", { fg = colors.lightyellow }),
 		utils.hl("GitSignsDeleteNr", { fg = colors.lightred }),
 		utils.hl("GitSignsTopDeleteNr", { fg = colors.lightred }),
-		utils.hl("GitSignsChangeDeleteNr", { fg = colors.lightred }),
+		utils.hl("GitSignsChangeDeleteNr", { fg = colors.lightyellow }),
 		utils.hl("GitSignsUntrackedNr", { fg = colors.lightcyan }),
 
 		-- Word diffs
@@ -44,7 +44,7 @@ function M.get_highlights(colors)
 		utils.hl("GitSignsStagedAdd", { fg = colors.lightgreen }),
 		utils.hl("GitSignsStagedChange", { fg = colors.lightyellow }),
 		utils.hl("GitSignsStagedDelete", { fg = colors.lightred }),
-		utils.hl("GitSignsStagedChangedelete", { fg = colors.lightred }),
+		utils.hl("GitSignsStagedChangedelete", { fg = colors.lightyellow }),
 		utils.hl("GitSignsStagedTopdelete", { fg = colors.lightred }),
 
 		-- Staged line highlights
@@ -59,7 +59,7 @@ function M.get_highlights(colors)
 		utils.hl("GitSignsStagedChangeNr", { fg = colors.lightyellow }),
 		utils.hl("GitSignsStagedDeleteNr", { fg = colors.lightred }),
 		utils.hl("GitSignsStagedTopDeleteNr", { fg = colors.lightred }),
-		utils.hl("GitSignsStagedChangeDeleteNr", { fg = colors.lightred })
+		utils.hl("GitSignsStagedChangeDeleteNr", { fg = colors.lightyellow })
 	)
 end
 

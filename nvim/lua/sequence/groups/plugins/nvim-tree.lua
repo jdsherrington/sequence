@@ -12,7 +12,7 @@ function M.get_highlights(colors)
 		utils.hl("NvimTreePopup", { fg = colors.fg, bg = colors.grey }),
 		utils.hl("NvimTreeSignColumn", { fg = colors.fg, bg = colors.grey }),
 		utils.hl("NvimTreeWinSeparator", { fg = colors.lightgrey }),
-		utils.hl("NvimTreeWindowPicker", { fg = colors.bg, bg = colors.lightyellow, bold = true }),
+		utils.hl("NvimTreeWindowPicker", { fg = colors.bg, bg = colors.yellow, bold = true }),
 
 		-- Cursor and selection
 		utils.hl("NvimTreeCursorLine", { bg = colors.bg }),
@@ -20,37 +20,37 @@ function M.get_highlights(colors)
 		utils.hl("NvimTreeCursor", { fg = colors.fg }),
 
 		-- Directories
-		utils.hl("NvimTreeFolderName", { fg = colors.lightblue }),
-		utils.hl("NvimTreeOpenedFolderName", { fg = colors.lightblue, bold = true }),
+		utils.hl("NvimTreeFolderName", { fg = colors.blue }),
+		utils.hl("NvimTreeOpenedFolderName", { fg = colors.blue, bold = true }),
 		utils.hl("NvimTreeEmptyFolderName", { fg = colors.lightgrey }),
-		utils.hl("NvimTreeSymlinkFolderName", { fg = colors.lightcyan }),
-		utils.hl("NvimTreeRootFolder", { fg = colors.lightmagenta, bold = true }),
+		utils.hl("NvimTreeSymlinkFolderName", { fg = colors.cyan }),
+		utils.hl("NvimTreeRootFolder", { fg = colors.magenta, bold = true }),
 
 		-- Files
 		utils.hl("NvimTreeFileName", { fg = colors.fg }),
 		utils.hl("NvimTreeExecFile", { fg = colors.lightgreen }),
 		utils.hl("NvimTreeOpenedFile", { fg = colors.fg, bold = true }),
-		utils.hl("NvimTreeSpecialFile", { fg = colors.lightmagenta }),
-		utils.hl("NvimTreeImageFile", { fg = colors.lightcyan }),
-		utils.hl("NvimTreeSymlink", { fg = colors.lightcyan }),
-		utils.hl("NvimTreeSymlinkIcon", { fg = colors.lightcyan }),
+		utils.hl("NvimTreeSpecialFile", { fg = colors.yellow }),
+		utils.hl("NvimTreeImageFile", { fg = colors.cyan }),
+		utils.hl("NvimTreeSymlink", { fg = colors.cyan }),
+		utils.hl("NvimTreeSymlinkIcon", { fg = colors.cyan }),
 
 		-- Folder icons
-		utils.hl("NvimTreeFolderIcon", { fg = colors.lightblue }),
-		utils.hl("NvimTreeOpenedFolderIcon", { fg = colors.lightblue }),
-		utils.hl("NvimTreeClosedFolderIcon", { fg = colors.lightblue }),
+		utils.hl("NvimTreeFolderIcon", { fg = colors.blue }),
+		utils.hl("NvimTreeOpenedFolderIcon", { fg = colors.blue }),
+		utils.hl("NvimTreeClosedFolderIcon", { fg = colors.blue }),
 		utils.hl("NvimTreeFileIcon", { fg = colors.fg }),
 
 		-- Tree structure
 		utils.hl("NvimTreeIndentMarker", { fg = colors.lightgrey }),
-		utils.hl("NvimTreeLiveFilterPrefix", { fg = colors.lightmagenta, bold = true }),
-		utils.hl("NvimTreeLiveFilterValue", { fg = colors.lightmagenta, bold = true }),
+		utils.hl("NvimTreeLiveFilterPrefix", { fg = colors.magenta, bold = true }),
+		utils.hl("NvimTreeLiveFilterValue", { fg = colors.magenta, bold = true }),
 
 		-- Git status
 		utils.hl("NvimTreeGitDirty", { fg = colors.lightyellow }),
 		utils.hl("NvimTreeGitStaged", { fg = colors.lightgreen }),
-		utils.hl("NvimTreeGitMerge", { fg = colors.lightmagenta }),
-		utils.hl("NvimTreeGitRenamed", { fg = colors.lightcyan }),
+		utils.hl("NvimTreeGitMerge", { fg = colors.magenta }),
+		utils.hl("NvimTreeGitRenamed", { fg = colors.cyan }),
 		utils.hl("NvimTreeGitNew", { fg = colors.lightgreen }),
 		utils.hl("NvimTreeGitDeleted", { fg = colors.lightred }),
 		utils.hl("NvimTreeGitIgnored", { fg = colors.lightgrey }),
@@ -62,8 +62,8 @@ function M.get_highlights(colors)
 		utils.hl("NvimTreeLspDiagnosticsHint", { fg = colors.hint }),
 
 		-- Bookmarks
-		utils.hl("NvimTreeBookmark", { fg = colors.lightmagenta }),
-		utils.hl("NvimTreeBookmarkIcon", { fg = colors.lightmagenta }),
+		utils.hl("NvimTreeBookmark", { fg = colors.yellow }),
+		utils.hl("NvimTreeBookmarkIcon", { fg = colors.yellow }),
 
 		-- Modified files
 		utils.hl("NvimTreeModifiedFile", { fg = colors.lightyellow }),

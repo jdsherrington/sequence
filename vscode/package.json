@@ -1,0 +1,22 @@
+{
+  "name": "sequence-theme",
+  "displayName": "Sequence",
+  "description": "A cosy, low-contrast color scheme for terminals and editors.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sequence",
+        "uiTheme": "vs-dark",
+        "path": "./sequence-color-theme.json"
+      }
+    ]
+  }
+}
+

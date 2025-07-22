@@ -7,12 +7,12 @@
 # UPSTREAM: https://raw.githubusercontent.com/jdsherrington/sequence/main/ghostty/Sequence
 
 background = #15181E
-foreground = #9BA6BF
+foreground = #8A93A8
 
-selection-background = #5E6678
-selection-foreground = #9BA6BF
+selection-background = #4F5564
+selection-foreground = #8A93A8
 
-cursor-color = #9BA6BF
+cursor-color = #8A93A8
 cursor-text = #15181E
 
 palette = 0=#15181E
@@ -22,7 +22,7 @@ palette = 3=#7F766C
 palette = 4=#5D7392
 palette = 5=#746B8E
 palette = 6=#5A7777
-palette = 7=#5E6678
+palette = 7=#4F5564
 palette = 8=#2A2F3C
 palette = 9=#A5888B
 palette = 10=#859385
@@ -30,4 +30,4 @@ palette = 11=#A19A91
 palette = 12=#7793BB
 palette = 13=#958BB6
 palette = 14=#7CA2A2
-palette = 15=#9BA6BF
+palette = 15=#8A93A8

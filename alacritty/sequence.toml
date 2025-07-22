@@ -7,10 +7,10 @@
 # DEFAULT
 [colors.primary]
 background = "0x15181E"
-foreground = "0x9BA6BF"
+foreground = "0x8A93A8"
 
 [colors.cursor]
-cursor = "0x9BA6BF"
+cursor = "0x8A93A8"
 text = "0x15181E"
 
 # BASE
@@ -22,7 +22,7 @@ yellow = "0x7F766C"
 blue = "0x5D7392"
 magenta = "0x746B8E"
 cyan = "0x5A7777"
-white = "0x5E6678"
+white = "0x4F5564"
 
 # BRIGHT
 [colors.bright]
@@ -33,5 +33,5 @@ yellow = "0xA19A91"
 blue = "0x7793BB"
 magenta = "0x958BB6"
 cyan = "0x7CA2A2"
-white = "0x9BA6BF"
+white = "0x8A93A8"
 

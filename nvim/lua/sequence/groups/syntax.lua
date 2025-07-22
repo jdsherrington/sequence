@@ -7,43 +7,43 @@ function M.get_highlights(colors)
 		utils.hl("Comment", utils.apply_style({ fg = colors.lightgrey }, "comments")),
 
 		-- Constants
-		utils.hl("Constant", { fg = colors.lightmagenta }),
-		utils.hl("String", utils.apply_style({ fg = colors.lightgreen }, "strings")),
-		utils.hl("Character", { fg = colors.lightgreen }),
-		utils.hl("Number", { fg = colors.lightmagenta }),
-		utils.hl("Boolean", { fg = colors.lightmagenta }),
-		utils.hl("Float", { fg = colors.lightmagenta }),
+		utils.hl("Constant", { fg = colors.yellow }),
+		utils.hl("String", utils.apply_style({ fg = colors.green }, "strings")),
+		utils.hl("Character", { fg = colors.green }),
+		utils.hl("Number", { fg = colors.yellow }),
+		utils.hl("Boolean", { fg = colors.yellow }),
+		utils.hl("Float", { fg = colors.yellow }),
 
 		-- Identifiers
 		utils.hl("Identifier", { fg = colors.lightblue }),
-		utils.hl("Function", utils.apply_style({ fg = colors.lightyellow }, "functions")),
+		utils.hl("Function", utils.apply_style({ fg = colors.yellow }, "functions")),
 
 		-- Statements
-		utils.hl("Statement", utils.apply_style({ fg = colors.lightred }, "keywords")),
-		utils.hl("Conditional", utils.apply_style({ fg = colors.lightred }, "keywords")),
-		utils.hl("Repeat", utils.apply_style({ fg = colors.lightred }, "keywords")),
-		utils.hl("Label", utils.apply_style({ fg = colors.lightred }, "keywords")),
-		utils.hl("Operator", { fg = colors.lightcyan }),
-		utils.hl("Keyword", utils.apply_style({ fg = colors.lightred }, "keywords")),
-		utils.hl("Exception", utils.apply_style({ fg = colors.lightred }, "keywords")),
+		utils.hl("Statement", utils.apply_style({ fg = colors.magenta }, "keywords")),
+		utils.hl("Conditional", utils.apply_style({ fg = colors.magenta }, "keywords")),
+		utils.hl("Repeat", utils.apply_style({ fg = colors.magenta }, "keywords")),
+		utils.hl("Label", utils.apply_style({ fg = colors.magenta }, "keywords")),
+		utils.hl("Operator", { fg = colors.cyan }),
+		utils.hl("Keyword", utils.apply_style({ fg = colors.magenta }, "keywords")),
+		utils.hl("Exception", utils.apply_style({ fg = colors.magenta }, "keywords")),
 
 		-- PreProcessor
-		utils.hl("PreProc", { fg = colors.lightmagenta }),
-		utils.hl("Include", { fg = colors.lightmagenta }),
-		utils.hl("Define", { fg = colors.lightmagenta }),
-		utils.hl("Macro", { fg = colors.lightmagenta }),
-		utils.hl("PreCondit", { fg = colors.lightmagenta }),
+		utils.hl("PreProc", { fg = colors.magenta }),
+		utils.hl("Include", { fg = colors.magenta }),
+		utils.hl("Define", { fg = colors.magenta }),
+		utils.hl("Macro", { fg = colors.magenta }),
+		utils.hl("PreCondit", { fg = colors.magenta }),
 
 		-- Types
-		utils.hl("Type", { fg = colors.lightblue }),
-		utils.hl("StorageClass", { fg = colors.lightblue }),
-		utils.hl("Structure", { fg = colors.lightblue }),
-		utils.hl("Typedef", { fg = colors.lightblue }),
+		utils.hl("Type", { fg = colors.blue }),
+		utils.hl("StorageClass", { fg = colors.blue }),
+		utils.hl("Structure", { fg = colors.blue }),
+		utils.hl("Typedef", { fg = colors.blue }),
 
 		-- Special
-		utils.hl("Special", { fg = colors.lightcyan }),
-		utils.hl("SpecialChar", { fg = colors.lightcyan }),
-		utils.hl("Tag", { fg = colors.lightblue }),
+		utils.hl("Special", { fg = colors.cyan }),
+		utils.hl("SpecialChar", { fg = colors.cyan }),
+		utils.hl("Tag", { fg = colors.blue }),
 		utils.hl("Delimiter", { fg = colors.fg }),
 		utils.hl("SpecialComment", { fg = colors.lightcyan }),
 		utils.hl("Debug", { fg = colors.lightred }),
@@ -52,7 +52,7 @@ function M.get_highlights(colors)
 		utils.hl("Underlined", { fg = colors.lightblue, underline = true }),
 		utils.hl("Ignore", { fg = colors.grey }),
 		utils.hl("Error", { fg = colors.error }),
-		utils.hl("Todo", { fg = colors.warning, bold = true })
+		utils.hl("Todo", { fg = colors.lightyellow, bold = true })
 	)
 end
 
